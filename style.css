@@ -52,7 +52,7 @@ body {
   line-height: 65px;
   display: flex;
   color: #fff;
-  max-width: 600px;
+  max-width: 640px;
   padding-top: 320px;
 }
 .hero__title {
@@ -61,6 +61,15 @@ body {
   font-weight: 400;
   font-size: 48px;
   line-height: 65px;
+}
+.about__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 62px */
+
+  display: flex;
+  align-items: center;
 }
 .about__text {
   font-style: normal;
